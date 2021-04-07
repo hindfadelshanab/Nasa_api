@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:id="@+id/linear_bottom_sheet"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:backgroundTint="@color/black"
+    android:alpha="0.6"
+    app:layout_behavior="@string/bottom_sheet_behavior"
+    app:behavior_peekHeight="35dp"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_baseline_keyboard_capslock_24"
+        />
+
+    <TextView
+        android:id="@+id/text_explain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginRight="8dp"
+        android:padding="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="hind djsjsssssssdllllllllllllllll hind hind dhidnksllan dhd klsnd ldlllllllllmckccccccc" />
+
+</LinearLayout>
+</androidx.cardview.widget.CardView>
